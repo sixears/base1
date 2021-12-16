@@ -6,10 +6,12 @@
      low-level local imports; not including testing base. -}
 
 module Base1
-  ( ------------------------------------
+  ( module Base0
+
+    ------------------------------------
     --         has-callstack          --
     ------------------------------------
-    module HasCallstack
+  , module HasCallstack
 
     ------------------------------------
     --             index              --
@@ -20,6 +22,7 @@ module Base1
     --         monaderror-io          --
     ------------------------------------
   , module MonadError
+  , module MonadError.IO
   , module MonadError.IO.Error
 
     ------------------------------------
@@ -43,6 +46,8 @@ module Base1
   )
 where
 
+import Base0
+
 -- has-callstack -----------------------
 
 import HasCallstack  ( HasCallstack( callstack ) )
@@ -53,7 +58,8 @@ import Index  ( HasIndex( Elem, Indexer, index ), (!!) )
 
 -- monaderror-io -----------------------
 
-import MonadError           ( ѥ, fromRight, splitMError )
+import MonadError           ( ѥ, splitMError )
+import MonadError.IO        ( asIOError )
 import MonadError.IO.Error  ( AsIOError( _IOError ), userE )
 
 -- more-unicode ------------------------
