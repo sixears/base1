@@ -54,7 +54,7 @@ import HasCallstack  ( HasCallstack( callstack ) )
 
 -- index -------------------------------
 
-import Index  ( HasIndex( Elem, Indexer, index ), (!!) )
+import Index  ( HasIndex( Elem, Indexer, index ), (!), (!!) )
 
 -- monaderror-io -----------------------
 
