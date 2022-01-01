@@ -36,6 +36,7 @@ module Base1
   , module Data.MoreUnicode.Maybe
   , module Data.MoreUnicode.Monad
   , module Data.MoreUnicode.Monoid
+  , module Data.MoreUnicode.Semigroup
   , module Data.MoreUnicode.String
   , module Data.MoreUnicode.Text
 
@@ -72,6 +73,7 @@ import Data.MoreUnicode.Lens         ( (⊣), (⊢), (⫥) )
 import Data.MoreUnicode.Maybe        ( 𝕄, pattern 𝕵, pattern 𝕹 )
 import Data.MoreUnicode.Monad        ( (≫), (⪼), (≪) )
 import Data.MoreUnicode.Monoid       ( ю )
+import Data.MoreUnicode.Semigroup    ( (◇) )
 import Data.MoreUnicode.String       ( 𝕊 )
 import Data.MoreUnicode.Text         ( 𝕋 )
 
