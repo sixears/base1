@@ -29,6 +29,7 @@ module Base1
     --          more-unicode          --
     ------------------------------------
   , module Data.MoreUnicode.Applicative
+  , module Data.MoreUnicode.Bool
   , module Data.MoreUnicode.Char
   , module Data.MoreUnicode.Either
   , module Data.MoreUnicode.Functor
@@ -66,13 +67,14 @@ import MonadError.IO.Error  ( AsIOError( _IOError ), userE )
 -- more-unicode ------------------------
 
 import Data.MoreUnicode.Applicative  ( (∤), (⊵), (⊴), (⋫), (⋪) )
+import Data.MoreUnicode.Bool         ( 𝔹 )
 import Data.MoreUnicode.Char         ( ℂ )
 import Data.MoreUnicode.Either       ( 𝔼, pattern 𝕷, pattern 𝕽 )
-import Data.MoreUnicode.Functor      ( (⊳), (⊳⊳), (⊳⊳⊳), (⊲) )
+import Data.MoreUnicode.Functor      ( (⊳), (⊳⊳), (⊳⊳⊳), (⊲), (⩺) )
 import Data.MoreUnicode.Lens         ( (⊣), (⊢), (⫥) )
 import Data.MoreUnicode.Maybe        ( 𝕄, pattern 𝕵, pattern 𝕹 )
 import Data.MoreUnicode.Monad        ( (≫), (⪼), (≪) )
-import Data.MoreUnicode.Monoid       ( ю )
+import Data.MoreUnicode.Monoid       ( ю, ф )
 import Data.MoreUnicode.Semigroup    ( (◇) )
 import Data.MoreUnicode.String       ( 𝕊 )
 import Data.MoreUnicode.Text         ( 𝕋 )
