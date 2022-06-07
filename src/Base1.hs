@@ -67,7 +67,7 @@ import MonadError.IO.Error  ( AsIOError( _IOError ), userE )
 -- more-unicode ------------------------
 
 import Data.MoreUnicode.Applicative  ( (∤), (⊵), (⊴), (⋫), (⋪) )
-import Data.MoreUnicode.Bool         ( 𝔹, pattern 𝕿, pattern 𝕱 )
+import Data.MoreUnicode.Bool         ( 𝔹, pattern 𝕿, pattern 𝕱, ﬧ )
 import Data.MoreUnicode.Char         ( ℂ )
 import Data.MoreUnicode.Either       ( 𝔼, pattern 𝕷, pattern 𝕽 )
 import Data.MoreUnicode.Functor      ( (⊳), (⊳⊳), (⊳⊳⊳), (⊲), (⩺) )
