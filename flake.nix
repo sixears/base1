@@ -14,7 +14,7 @@
 
   };
 
-  outputs = { self, nixpkgs, flake-utils, build-utils
+  outputs = { self, nixpkgs, build-utils
             , base0, has-callstack, index, monaderror-io, more-unicode, tfmt }:
     build-utils.lib.hOutputs self nixpkgs "base1" {
       deps = {
