@@ -1,3 +1,7 @@
+0.0.9.11 2022-11-13
+===================
+- fix fixed-package-name typo in flake-build-utils
+
 0.0.9.10 2022-11-04
 ===================
 - fix package names
