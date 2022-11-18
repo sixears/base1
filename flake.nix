@@ -7,7 +7,7 @@
 
     base0.url         = github:sixears/base0/r0.0.4.8;
     has-callstack.url = github:sixears/has-callstack/r1.0.1.13;
-    index.url         = github:sixears/index/r1.0.1.17;
+    index.url         = github:sixears/index/r1.0.1.18;
     monaderror-io.url = github:sixears/monaderror-io/r1.2.5.14;
     more-unicode.url  = github:sixears/more-unicode/r0.0.17.9;
     tfmt.url          = github:sixears/tfmt/r0.2.7.18;
