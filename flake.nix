@@ -10,7 +10,7 @@
     index.url         = github:sixears/index/r1.0.1.22;
     monaderror-io.url = github:sixears/monaderror-io/r1.2.5.18;
     more-unicode.url  = github:sixears/more-unicode/r0.0.17.11;
-    tfmt.url          = github:sixears/tfmt/r0.2.7.22;
+    tfmt.url          = github:sixears/tfmt/r0.2.7.23;
 
   };
 
