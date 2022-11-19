@@ -18,7 +18,7 @@
             , base0, has-callstack, index, monaderror-io, more-unicode, tfmt }:
     build-utils.lib.hOutputs self nixpkgs "base1" {
       ghc = p: p.ghc8107; # for tfmt
-      callPackage = { mkDerivation, lib, system }:
+      callPackage = { mkDerivation, lib, mapPkg, system }:
         let
           pkg = build-utils.lib.flake-def-pkg system;
         in
