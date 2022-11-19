@@ -6,11 +6,11 @@
     build-utils.url   = github:sixears/flake-build-utils/r1.0.0.13;
 
     base0.url         = github:sixears/base0/r0.0.4.10;
-    has-callstack.url = github:sixears/has-callstack/r1.0.1.16;
-    index.url         = github:sixears/index/r1.0.1.21;
-    monaderror-io.url = github:sixears/monaderror-io/r1.2.5.17;
+    has-callstack.url = github:sixears/has-callstack/r1.0.1.17;
+    index.url         = github:sixears/index/r1.0.1.22;
+    monaderror-io.url = github:sixears/monaderror-io/r1.2.5.18;
     more-unicode.url  = github:sixears/more-unicode/r0.0.17.11;
-    tfmt.url          = github:sixears/tfmt/r0.2.7.21;
+    tfmt.url          = github:sixears/tfmt/r0.2.7.22;
 
   };
 
