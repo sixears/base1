@@ -10,7 +10,7 @@ name:                base1
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:             0.0.9.34
+version:             0.0.10.0
 
 -- A short (one-line) description of the package.
 synopsis:            Prelude replacement, incl. first-level local packages
@@ -62,12 +62,12 @@ library
   -- other-extensions:
 
   -- Other library packages from which modules are imported.
-  build-depends:      base0           >= 0.0.3.0
-                    , has-callstack   >= 1.0.1.0
-                    , index           >= 1.0.1.0
-                    , monaderror-io   >= 1.2.4.0
-                    , more-unicode    >= 0.0.17.0
-                    , tfmt            >= 0.2.6.0
+  build-depends:      base0           >= 0.0.4.11
+                    , has-callstack   >= 1.0.1.19
+                    , index           >= 1.0.1.26
+                    , monaderror-io   >= 1.2.6.0
+                    , more-unicode    >= 0.0.18.0
+                    , tfmt            >= 0.2.8.0
 
   -- Directories containing source files.
   hs-source-dirs:      src
