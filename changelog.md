@@ -1,3 +1,5 @@
+- export (⮜), (⮘), (⮞), (⮚)
+
 0.0.10.0 2023-09-18
 ===================
 - upgrade all packages, incl tfmt -> 0.2.8.0, more-unicode -> 0.0.18.0
