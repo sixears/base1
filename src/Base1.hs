@@ -71,7 +71,7 @@ import Data.MoreUnicode.Either      ( 𝔼, pattern 𝓛, pattern 𝓡, pattern 
 import Data.MoreUnicode.Functor     ( (⊲), (⊳), (⊳⊳), (⊳⊳⊳), (⩺) )
 import Data.MoreUnicode.Lens        ( (⊢), (⊣), (⊧), (⩼), (⫥) )
 import Data.MoreUnicode.Maybe       ( 𝕄, pattern 𝓙, pattern 𝓝, pattern 𝕵,
-                                      pattern 𝕹 )
+                                      pattern 𝕹, (⧏), (⧐) )
 import Data.MoreUnicode.Monad       ( (≪), (≫), (⪼), (⮘), (⮚), (⮜), (⮞) )
 import Data.MoreUnicode.Monoid      ( ф, ю )
 import Data.MoreUnicode.Semigroup   ( (◇) )

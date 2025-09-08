@@ -1,3 +1,7 @@
+0.0.12.0 2025-09-08
+===================
+- +(⧏), +(⧐)
+
 0.0.11.0 2025-08-27
 ===================
 - export (∈),(∉) from Data.MoreUnicode.Containers in favour of Base0
